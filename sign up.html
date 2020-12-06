@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+	<style type="text/css">
+		body{
+			background-color: #65dbb2;
+			font-family:sans-serif;
+		}
+		*{
+			box-sizing: border-box;
+		}
+		h1{
+			margin:auto;
+			text-align: center;
+			margin-top: 0;
+			margin-bottom: 20px;
+			color:#65dbb2;
+
+		}
+		.wrapper{
+			max-width: 450px;
+			height: auto;
+			background-color: white;
+			padding: 70px 45px;
+			position: absolute;
+			transform: translate(-50%, -50%);
+			top: 50%;
+			left: 50%;
+			border-radius: 20px;
+
+		}
+		.input_feild{
+			position: relative;
+			margin-bottom: 10px;
+		}
+
+		.input{
+			width: 100%;
+			padding: 12px;
+			padding-left: 35px;
+			border: none;
+			background-color: #eeeeee
+		}
+		.input_feild i{
+			position: absolute;
+			top: 10px;
+			left: 10px;
+
+		}
+		.btn{
+			width: 50%;
+			margin: 50px 85px 10px;
+			background-color:#65dbb2;
+			text-align: center;
+			padding:12px;
+			border-radius: 25px;
+			color:black;
+			text-decoration: underline;}
+			::placeholder{
+				color: black;
+			}
+			.social_media{
+				display: flex;
+				justify-content: center;
+				margin-bottom: 20px;
+			}
+			.item{
+				margin:0 5px;
+				width: 35px;
+				height: 35px;
+				text-align: center;
+				border:2px solid violet;
+				border-radius: 50%;
+				color: #eeeeee;
+				line-height: 33px;
+				transition: all 1s ease;  
+			}
+			.item:hover{
+				border: 2px solid #65dbb2;
+				color: #65dbb2
+
+			}
+
+	</style>
+</head>
+<body>
+<div class="wrapper">
+<form action="file:///C:/Users/user/Desktop/Elanna/Coding%20by%20Elanna/Websites/Mini%20Projects/StoryBook.html" target="_blank" method="POST">
+	<h1>Register Here</h1>
+
+
+	<div class="social_media">
+		<div class="item">
+			<a href=""><i class="fab fa-facebook-f"></i></a>
+		</div>
+	
+	
+		<div class="item">
+			<a href=""><i class="fab fa-instagram"></i></a>
+		</div>
+	
+	
+		<div class="item">
+			<a href=""><i class="fab fa-twitter"></i></a>
+		</div>
+		</div>
+
+
+	<div class="input_feild">
+		<i class="fas fa-user"></i>
+	<input type="text" name="Name" placeholder="Name" class="input">
+	</div>
+
+	
+	<div class="input_feild">
+		<i class="far fa-envelope"></i>
+		<input type="email" name="email" placeholder="Email" class="input">
+	</div>
+
+	<div class="input_feild">
+		<i class="fas fa-key"></i>
+		<input type="password" name="password" placeholder="Password" class="input">
+	</div>
+
+	<br>
+	<div>
+		<i class="far fa-calendar-alt"></i>
+		<label>DOB:</label>
+        	<input type="date">
+	</div>
+
+	<div>
+		<i class="fas fa-male"></i><label>Male</label>
+		<input type="radio" name="Gender">
+	
+		<i class="fas fa-female"></i><label>Female</label>
+		<input type="radio" name="Gender">
+	</div>
+	<br>
+	<div>
+		<label>I agree to the terms and conditions</label>
+		<input type="checkbox" name="tick">
+	</div>
+	<button class="btn">Subscribe</button>
+</form>
+
+</head>
+<body>
+<h1>Sign Up</h1>
+</body>
+</div>
+</html>
